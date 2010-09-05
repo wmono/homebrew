@@ -6,6 +6,7 @@ class Openvpn < Formula
   sha256 'a860858cc92d4573399bb2ff17ac62d9b4b8939e6af0b8cc69150ba39d6e94e0'
 
   depends_on 'lzo' => :recommended
+  depends_on 'tuntap' => :recommended
 
   skip_clean 'etc'
   skip_clean 'var'
