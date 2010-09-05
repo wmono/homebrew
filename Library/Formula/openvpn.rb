@@ -6,6 +6,7 @@ class Openvpn <Formula
   md5 'b273ed2b5ec8616fb9834cde8634bce7'
 
   depends_on 'lzo' => :recommended
+  depends_on 'tuntap' => :recommended
 
   skip_clean 'etc'
   skip_clean 'var'
